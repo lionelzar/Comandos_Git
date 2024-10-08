@@ -1,0 +1,50 @@
+Ver que versión de git tenemos instalada
+
+git -v
+git --versión
+
+
+Comandos de configuración forma Local
+
+git config "user.name"   Cambiar la info dentro de las comillas
+git config "user.email"   Cambiar la info dentro de las comillas 
+
+Nuestro usuario y mail será local, solo estará activo dentro de la carpeta donde usemos los comandos
+
+Comandos de configuración forma global
+
+git config "user.name"   Cambiar la info dentro de las comillas
+git config "user.email"   Cambiar la info dentro de las comillas
+git config --global --list Nos retorna los valores globales de la configuración
+
+Nuestro usuario y mail será global, estará activo en cada repositorio que creemos
+
+
+Comandos de Git dentro del repositorio
+
+git init Inicializa nuestro repositorio
+git remote add origin  Linkea nuestro repositorio local con el repositorio de la nube
+git remote -v Nos muestra la url de nuestro repositorio en la nube, de donde trae y cambia la información
+git status Nos muestra el estado de nuestros archivos, nuevos, modificados, borrados, no modificados
+git add . Añade todos los cambios
+git add nombre del archivo, solo añade ese archivo al commit
+git commit -m "Acá va el mensaje" Añade una instancia guardado con ese mensaje
+git branch Nos muestra en la rama en la que estamos
+git checkout nos cambia de rama
+git push Sube los cambios del commit a la nube
+git pull Nos trae los últimos cambios de la nube
+
+Comandos de las ramas
+
+git Branch -a Listado de todas las ramas
+git -m nombre de la rama Cambia el nombre de la rama
+
+git push -u origin nombre de la rama Es la rama remota con la que tu rama local se sincroniza Git la usa como referencia para hacer push o pull
+
+
+
+
+
+
+
+
